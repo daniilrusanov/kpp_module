@@ -1,0 +1,7 @@
+{
+  "name": "kpp_module",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
