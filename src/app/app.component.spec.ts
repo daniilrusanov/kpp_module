@@ -8,9 +8,10 @@ describe('AppComponent', () => {
       imports: [AppComponent],
       providers: [provideRouter([])]
     }).compileComponents();
-    
+
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
+    // @ts-ignore
     expect(app).toBeTruthy();
   });
 });

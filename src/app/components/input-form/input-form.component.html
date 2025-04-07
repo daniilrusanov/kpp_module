@@ -1,0 +1,22 @@
+<form [formGroup]="inputForm" (ngSubmit)="submitData()">
+    <ion-item>
+        <ion-input
+                formControlName="elements"
+                label="Введіть набір елементів"
+                label-placement="stacked"
+        ></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-input
+                formControlName="length"
+                label="Введіть довжину комбінацій"
+                label-placement="stacked"
+                type="number"
+        ></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" type="submit">
+        Згенерувати
+    </ion-button>
+</form>
