@@ -5,7 +5,7 @@
 
 ## Хостинг 
 ```bash
-...
+https://formation-of-combinations.web.app/home
 ```
 
 ## Опис проекту
